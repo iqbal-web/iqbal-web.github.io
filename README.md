@@ -1,6 +1,6 @@
-# Devfolio
+# iqbal-web.github.io
 
-Devfolio is a portfolio website built using Next.js, Tailwind CSS, and Framer Motion. It allows developers to showcase their projects, skills, and blogs in a visually appealing manner.
+iqbal-web.github.io is a portfolio website built using Next.js, Tailwind CSS, and Framer Motion. It allows developers to showcase their projects, skills, and blogs in a visually appealing manner.
 
 ## Table of Contents
 
@@ -28,8 +28,8 @@ To get started with Devfolio, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/devfolio.git
-   cd devfolio
+   git clone https://github.com/yourusername/iqbal-web.github.io
+   cd iqbal-web.github.io
    ```
 
 2. **Install the dependencies:**
