@@ -36,7 +36,7 @@ export default function Hero() {
             {...fadeInUp}
             transition={{ delay: 0.4 }}
           >
-            Full Stack Developer | UI/UX Enthusiast | Open Source Contributor
+            Front End Engineer, and efficient WordPress Engineer
           </motion.p>
           <motion.div 
             className="flex justify-center space-x-4 mb-8"
@@ -44,7 +44,7 @@ export default function Hero() {
             transition={{ delay: 0.5 }}
           >
             <motion.a
-              href="https://github.com"
+              href="https://github.com/iqbal-xs"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"
@@ -54,7 +54,7 @@ export default function Hero() {
               <FaGithub />
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/iqbal1hossain/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"
@@ -64,7 +64,7 @@ export default function Hero() {
               <FaLinkedin />
             </motion.a>
             <motion.a
-              href="https://twitter.com"
+              href="https://x.com/iqbalgazi2021"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"
