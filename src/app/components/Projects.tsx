@@ -2,7 +2,7 @@
 
 import { projects } from '@/contents/projects'
 import Image from 'next/image'
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
+import { FaExternalLinkAlt } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import { fadeInUp, staggerContainer, cardHoverSmall } from '@/utils/animations'
 
@@ -18,7 +18,7 @@ export default function Projects() {
         </motion.h2>
 
         <motion.div 
-          className="grid grid-cols-1 md:grid-cols-3 gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 gap-8"
           variants={staggerContainer}
           initial="initial"
           animate="animate"
@@ -55,39 +55,11 @@ export default function Projects() {
                 {project.description}
               </motion.p>
               <motion.div 
-                className="flex flex-wrap gap-2 mb-4"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.3 }}
-              >
-                {project.technologies.map((tech) => (
-                  <motion.span
-                    key={tech}
-                    className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm"
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    {tech}
-                  </motion.span>
-                ))}
-              </motion.div>
-              <motion.div 
                 className="flex gap-4"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.4 }}
               >
-                <motion.a
-                  href={project.githubLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-secondary hover:text-primary transition-colors"
-                  whileHover={{ x: 5 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <FaGithub className="h-5 w-5" />
-                  <span>Code</span>
-                </motion.a>
                 <motion.a
                   href={project.demoLink}
                   target="_blank"
