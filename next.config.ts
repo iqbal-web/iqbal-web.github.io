@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Export static HTML for GitHub Pages
+  output: 'export',
   images: {
     remotePatterns: [
       {
