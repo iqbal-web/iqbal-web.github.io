@@ -1,5 +1,3 @@
-
-@@ -1,73 +0,0 @@
 # iqbal-web.github.io
 
 iqbal-web.github.io is a portfolio website built using Next.js, Tailwind CSS, and Framer Motion. It allows developers to showcase their projects, skills, and blogs in a visually appealing manner.
