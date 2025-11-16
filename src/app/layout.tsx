@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Iqbal | Portfolio Website using Next.js, Tailwind CSS, and Framer Motion",
+  title: "Iqbal Hossain - Front End Engineer",
   description: "Iqbal's portfolio website to showcase projects and skills.",
 };
 
