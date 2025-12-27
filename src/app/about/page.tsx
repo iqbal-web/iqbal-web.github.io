@@ -201,7 +201,7 @@ export default function About() {
             variants={fadeInUp}
             {...cardHoverSmall}
           >
-            <h3 className="text-xl font-semibold mb-2">Bachelor of Science in Computer Science</h3>
+            <h3 className="text-xl font-semibold mb-2">Bachelor of Science in Computer Science & Engineering (CSE)</h3>
             <p className="text-primary mb-2"> Green University of Bangladesh • 2021 - 2025</p>
             <p className="text-secondary">
               Graduated with honors. Focused on software engineering and web development.
